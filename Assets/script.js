@@ -78,6 +78,7 @@ function storeEntries() {
 
 
 
+
 // ---- Conditional to assign 'past-present-future' classes to time-blocks ---- //
 
     $(".timeblock").each(function () {
