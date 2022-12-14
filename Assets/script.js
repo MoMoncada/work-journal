@@ -61,19 +61,17 @@ function storeEntries() {
 
 
 
-// ---- entry inputs after refresh ---- //
 
-
-    for (var i = 0; i < 9; i++) {
-      
-      // console.log(entryArr[i + 9]);
-      // console.log($(`#${i + 9}`).find(".description").text(entryText));
-      var entryText = entryArr[i + 9];
-      
-      $(`#${i + 9}`).find(".description").text(entryText);
-  };
-
-
+function onLoad(){
+  for (var i = 0; i < 9; i++) {
+    
+    var entryId = `hour-${i + 9}`;
+    var entryText = entryArr[entryId];
+    debugger
+    $(`#timeblock-${i + 9}`).val(entryText);
+    
+};
+}
 
 
 
