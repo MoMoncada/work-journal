@@ -1,6 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(30, 127, 187);
+  color: #ffffff;
+  border-bottom: 3px solid darkblue;
+  border-radius: 0px;
 }
 
 textarea {
@@ -30,19 +38,23 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
+/* Added font-weight to the CSS time styling for visibility purposes */
 .past {
-  background-color: #d3d3d3;
+  background-color: #d8d0d0;
   color: white;
+  font-weight: bold;
 }
 
 .present {
   background-color: #ff6961;
   color: white;
+  font-weight: bold;
 }
 
 .future {
   background-color: #77dd77;
   color: white;
+  font-weight: bold;
 }
 
 .saveBtn {
