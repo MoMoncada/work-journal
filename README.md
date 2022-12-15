@@ -33,7 +33,7 @@ N/A
 ## Deployed Web Page
 
 ### Work Journal
-![Full of tasks](./Assets/past-present-future%20example.png)
+![Full of tasks](./Assets/images/past-present-future%20example.png)
 
 
 
