@@ -26,7 +26,7 @@ N/A
 
 ### Deployed URL: https://github.com/MoMoncada/work-journal
 
-### GitHub: 
+### GitHub: https://momoncada.github.io/work-journal/
 
 ---------------------
 
@@ -37,10 +37,13 @@ N/A
 
 
 
-
-
 ## Credits
 Maria Auxiliadora Moncada 
+------------ 
+
+## Notes
+There are 3 other contributors in the repo that probably have been detected as I cloned the starter code from a different repo. Their commits are from before I started the course.
+
 
 ------------
 
