@@ -24,9 +24,10 @@ N/A
 
 ## Submission Links
 
-### Deployed URL: https://github.com/MoMoncada/work-journal
+### GitHub: https://github.com/MoMoncada/work-journal
 
-### GitHub: https://momoncada.github.io/work-journal/
+### Deployed URL: https://momoncada.github.io/work-journal/
+
 
 ---------------------
 
