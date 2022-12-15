@@ -12,8 +12,8 @@ var entryArr = JSON.parse(localStorage.getItem("entryArr")) || {
   "hour-14": "",
   "hour-15": "",
   "hour-16": "",
-  "hour-17": ""
-  
+  "hour-17": "",
+    
 };
 
 
@@ -48,7 +48,7 @@ $("button").on("click", function () {
 
   entryArr[entryId] = textInput.val();
 
-  storeEntries(); // triggers the function
+  storeEntries(); 
 });
 
 
