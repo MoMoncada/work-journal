@@ -13,6 +13,7 @@ var entryArr = JSON.parse(localStorage.getItem("entryArr")) || {
   "hour-15": "",
   "hour-16": "",
   "hour-17": ""
+  
 };
 
 
@@ -29,20 +30,20 @@ $("#currentTime").append(displayTime);
 
 
 
-// Click event to populate the tasksObj with text input from the textarea 
+//  ---- 'Click' event to store the entries from the text area ---- // 
 $("button").on("click", function () {
 
-  // get id
+  
   console.log($(this).parent().attr("id"));
   var entryId = $(this).parent().attr("id");
 
-  // get textarea input
+
   var textInput = $(this).parent().find("textarea");
   textInput.val();
   console.log(textInput.val());
   
 
-  // printing the object array in the console to make sure it's there
+  // ---- printing array in the console to make sure the array has been stored ---- //
   console.log("Entries: ", entryArr);
 
   entryArr[entryId] = textInput.val();
@@ -51,7 +52,7 @@ $("button").on("click", function () {
 });
 
 
-// ---- Stores entries to local storage ---- //
+// ---- Function to store entries to local storage ---- //
 function storeEntries() {
 
   localStorage.setItem("entryArr", JSON.stringify(entryArr));
@@ -61,7 +62,7 @@ function storeEntries() {
 
 
 
-
+// ---- function to re-populate the time-blocks text areas ---- //
 function onLoad(){
   for (var i = 0; i < 9; i++) {
     
