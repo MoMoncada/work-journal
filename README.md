@@ -1,4 +1,4 @@
-# Pop Quiz Time
+# Work Journal Scheduler
 
 ## Description
 The following application provides the user with a daily work journal that can be used to store their activities through the day. In this case, the application has been customed to fit the standard business hours (9am-5pm), but can be changed if the user requires it.
